@@ -1,3 +1,31 @@
 * {
   box-sizing: border-box;
 }
+
+.fas.fa-umbrella-beach {
+  color: green;
+  font-size: 4rem;
+  padding: 15px;
+}
+
+.fas.fa-umbrella-beach.orchid {
+  color: darkorchid;
+}
+
+.beach {
+  height: 100px;
+  width: 100vw;
+}
+
+.sand {
+  background-color: yellow;
+}
+
+.water {
+  background-color: cyan;
+}
+
+.fas.fa-fish {
+  color: goldenrod;
+  font-size: 2rem;
+}
