@@ -5,7 +5,11 @@ const umbrella = document.querySelector('.fas.fa-umbrella-beach');
 
 const handleClick = () => {
   umbrella.classList.toggle('orchid');
-  console.log(umbrella.classList)
+  if (umbrella.classList.contains('orchid')) {
+    startButton.textContent = "Change to green"
+  } else {
+    startButton.textContent = "Change to purple"
+  }
 }
 
 startButton.addEventListener("click", handleClick);

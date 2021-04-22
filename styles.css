@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+#start-btn {
+  width: 120px;
+  padding: 5px;
+}
+
 .fas.fa-umbrella-beach {
   color: green;
   font-size: 4rem;
@@ -23,9 +28,19 @@
 
 .water {
   background-color: cyan;
+  display: flex;
+  align-items: center;
 }
 
 .fas.fa-fish {
   color: goldenrod;
   font-size: 2rem;
+
+}
+
+.fas.fa-fish:hover {
+  color: mediumvioletred;
+  font-size: 2.5rem;
+  transform: translate(100vw,0);
+  transition: font-size, transform linear 2s;
 }
